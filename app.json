@@ -1,0 +1,5 @@
+{
+    "name": "subconverter",
+    "description": "Deploy subconverter on Heroku.",
+    "stack": "container"
+}
