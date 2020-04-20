@@ -2,6 +2,6 @@
     "name": "subconverter",
     "description": "Deploy subconverter on Heroku.",
     "keywords": ["subconverter"],
-    "repository": "https://github.com/sprindjack/subconvert-docker",
+    "repository": "https://github.com/sprindjack/subconverter-heroku",
     "stack": "container"
 }
