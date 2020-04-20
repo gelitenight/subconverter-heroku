@@ -4,5 +4,4 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates wget \
  && tar -xvf subconverter_linux64.tar.gz 
 RUN chmod +x subconverter
 RUN ./subconverter
-ENTRYPOINT /configure.sh
 EXPOSE 25500
