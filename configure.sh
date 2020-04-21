@@ -8,8 +8,8 @@ cd /subconverter
 chmod +x *
 
 # Configure your subdomain
-sed -i 's/http:\/\/127.0.0.1:25500/$Domain/g' pref-new.yml
-sed -i 's/http:\/\/127.0.0.1:25500/$Domain/g' pref.ini
+sed -i "s/http:\/\/127.0.0.1:25500/$Domain/g" pref-new.yml
+sed -i "s/http:\/\/127.0.0.1:25500/$Domain/g" pref.ini
 
 # Run
 ./subconverter
