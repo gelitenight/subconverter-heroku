@@ -4,8 +4,8 @@
     "keywords": ["subconverter"],
     "env": {
         "Domain": {
-            "description": "Domain of your heroku app",
-            "value": "https://example.herokuapp.com"
+            "description": "Domain of your heroku app, without http or https",
+            "value": "example.herokuapp.com"
         }
     },
     "repository": "https://github.com/sprindjack/subconverter-heroku",
