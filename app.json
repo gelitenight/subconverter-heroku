@@ -2,6 +2,12 @@
     "name": "subconverter",
     "description": "Deploy subconverter on Heroku.",
     "keywords": ["subconverter"],
+    "env": {
+        "SubDomain": {
+            "description": "subdomain of your heroku app",
+            "value": "Input here"
+        }
+    },
     "repository": "https://github.com/sprindjack/subconverter-heroku",
     "stack": "container"
 }
