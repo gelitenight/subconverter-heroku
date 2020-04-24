@@ -17,6 +17,7 @@
 
 ## 已知问题 ##
 1. Surfboard 不使用全局无法检测更新（提示超时咯，那我能咋办嘛）
+- 解决方法：使用 CF Worker 反代， `example.herokuapp.com` 改为 CF Worker 的反代地址
 
 ## 进阶玩法 ##
 你可以自己 Fork 本项目，自定义 `configure.sh` 里面的参数，以实现更符合自己需求的转换。参见源项目库的说明
