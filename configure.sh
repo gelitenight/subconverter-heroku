@@ -16,8 +16,8 @@ sed -i "s/127.0.0.1:25500/${abc}/g" pref-new.yml
 sed -i "s/127.0.0.1:25500/${abc}/g" pref.ini
 
 # 2. Set expire time to infinite, manually update if the sub config changed
-sed -i 's/86400/0/g' pref-new.yml
-sed -i 's/86400/0/g' pref.ini
+# sed -i 's/86400/0/g' pref-new.yml
+# sed -i 's/86400/0/g' pref.ini
 
 # Run
 ./subconverter
