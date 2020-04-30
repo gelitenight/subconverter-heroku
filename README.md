@@ -5,9 +5,7 @@
 
 本项目修改了更新地址为可自定义的 Heroku 地址，需手动更新（反正Surfboard也没有后台更新功能），适合自建订阅。
 ## 步骤 ##
-1. 点击部署，如果没有显示出自定义环境参数 Config Vars, 则等几分钟再尝试
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fsprindjack%2Fsubconverter-heroku)
+1. 点击部署[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fsprindjack%2Fsubconverter-heroku)，如果没有显示出自定义环境参数 Config Vars, 则等几分钟再尝试
 
 2. 自定义自己的地址，如 `zhongguozuqiunb` ，并修改下面的地址为 `zhongguozuqiunb.herokuapp.com`
 
